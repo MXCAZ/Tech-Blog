@@ -14,7 +14,6 @@ const sequelize = process.env.JAWSDB_URL
         dialect: "mysql",
 
         dialectOptions: {
-          socketPath: "your socket path",
           decimalNumbers: true,
         },
       }
