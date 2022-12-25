@@ -1,0 +1,29 @@
+<div class="p-1 bg-secondary text-white mt-4  ">
+
+    
+        
+            
+      <h4><a href="/post/{{id}}"  class="has-text-black is-capitalized is-pulled-left" style=" color:black;  text-decoration: none">{{title}} </a></h4>
+      </div>
+    
+
+    
+    
+  <div class="p-3 card">
+  <div class="card-body">
+    {{post_content}}
+  </div>
+</div>
+
+    <div class="card-content">
+        <div class="content has-text-justified">
+            
+        </div>
+            <div class="text-end">
+                <b>{{User.username}}</b> | 
+              
+                <a href="https://github.com/{{User.github}}">{{User.github}}</i></a>
+                 | {{format_date created_at}} | <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+            </div>
+        
+    </div>
