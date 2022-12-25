@@ -29,7 +29,7 @@
     "express-session": "^1.17.3",
     "hbs": "^4.2.0",
     "mysql2": "^2.3.3",
-    "sequelize": "^6.27.0",
+    "sequelize": "^6.28.0",
     "sqlite3": "^5.1.4"
   },
   "devDependencies": {
